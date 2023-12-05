@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/CSS" href="styles.css">
+    <title>Survey Form</title>
+  </head>
+  <body>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <form id="survey-form" method="post">
+          <fieldset>
+            <label id="name-label" for="name">Name <input id="name" name="name" type="text" placeholder="Please enter your name" required></label>
+            <label id="email-label" for="email">Email <input id="email" name="email" type="email" placeholder="Please enter your email address" required></label>
+            <label id="number-label" for="number">Age <input id="number" name="number" type="number" min="13" max="120" placeholder="Please enter your age" required></label>
+            <label for="dropdown">Which option best describes your current role?</label>
+            <select id="dropdown" name="dropdown">
+              <option value="">(select one)</option>
+              <option value="1">Student</option>
+              <option value="2">Full Time Job</option>
+              <option value="3">Prefer not to say</option>
+            </select>
+          </fieldset>
+          <fieldset>
+            <legend>Would you recommend this platform to a friend?</legend>
+            <label for="radioYes"><input id="radioYes" type="radio" class="inline" name="friend-recommend" value="4">Yes</label>
+            <label for="radioNo"><input id="radioNo" type="radio" class="inline" name="friend-recommend" value="5">No</label>
+          </fieldset>
+          <fieldset>
+            <legend>What would you like to see improved? (check all that apply)</legend>
+            <label for="challenges"><input id="challenges" name="challenges" class="inline" type="checkbox" value="6">Challenges</label>
+            <label for="videos"><input id="videos" name="videos" class="inline" type="checkbox" value="7">Videos</label>
+            <label for="forum"><input id="forum" name="forum" class="inline" type="checkbox" value="8">Forum</label>
+            <label for="openSourceComunity"><input id="openSourceComunity" name="openSourceComunity" class="inline" type="checkbox" value="9">Open Source Community</label>
+            <label for="dataVisualization"><input id="dataVisualization" name="dataVisualization" class="inline" type="checkbox" value="10">Data Visualization</label>
+            <label for="textarea">Any comments or suggestions? 
+            <textarea id="textarea" name="textarea" rows="3" cols="30">
+            </textarea>
+          </label>
+          </fieldset>
+          <input id="submit" type="submit" value="Submit">
+    </form>
+    </body>
+  </html>
