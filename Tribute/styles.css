@@ -1,0 +1,62 @@
+body{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #eee;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+div{
+    width: 100%;
+    color: black;
+    padding: 5px;
+}
+
+#img-div{
+    background-color: white;
+    padding-top: 50px;
+    margin-top: 5px;
+    font-size: 16px;
+    width: 100%;
+    font-style: italic;
+}
+
+#image{
+    height: auto;
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+a{
+    color: #477ca7;
+}
+a:visited{
+    color: #74638f;
+}
+
+ul{
+    font-size: 18px;
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+li{
+    margin: 16px 0;
+}
+
+.quote{
+    font-style: italic;
+    margin: 0 auto 20px auto;
+    max-width: 545px;
+    text-align: left;
+}
+
+.more-info{
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
